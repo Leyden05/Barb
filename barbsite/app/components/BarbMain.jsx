@@ -11,13 +11,13 @@ const BarbMain = () => {
           alt="my face"
         />
       </div>
-      <div className="w-full h-screen absolute top-[900px] -z-[40]">
+      {/* <div className="w-full h-screen absolute top-[900px] -z-[40]">
         <Image
           className="w-full h-full object-cover"
           src={require("../assets/yolo.jpeg")}
           alt="another image"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

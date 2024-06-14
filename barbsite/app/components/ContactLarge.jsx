@@ -12,7 +12,7 @@ const ContactForm = () => {
     <div class="max-w-7xl flex flex-col items-center">
       <h2 class="text-white text-4xl">Contact me</h2>
       <form onSubmit={handleSubmit} className="flex flex-col mt-12 w-80">
-        <label htmlFor="email" className="text-gray-700 mb-2">
+        <label htmlFor="email" className="text-white mb-2">
           Email Address
         </label>
         <input
@@ -22,7 +22,7 @@ const ContactForm = () => {
           className="border border-gray-300 rounded-md px-3 py-2 mb-4 focus:outline-none focus:border-blue-500"
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
-        <label htmlFor="message" className="text-gray-700 mb-2">
+        <label htmlFor="message" className="text-white mb-2">
           Message
         </label>
         <textarea

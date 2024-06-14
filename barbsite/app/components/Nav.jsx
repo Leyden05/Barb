@@ -22,13 +22,13 @@ const Nav = () => {
           </a>
 
           <div className="hidden md:flex space-x-6 gap-8 ml-48">
-            <a href="#" className="text-white hover:text-gray-300">
+            <a href="https://linktr.ee/barb_barb_barb" target="_blank" className="text-white hover:text-gray-300">
               Music
             </a>
             <a href="/about" className="text-white hover:text-gray-300">
               About
             </a>
-            <a href="#" className="text-white hover:text-gray-300">
+            <a href="/events" className="text-white hover:text-gray-300">
               Events
             </a>
             <a href="/contact" className="text-white hover:text-gray-300">
@@ -38,31 +38,31 @@ const Nav = () => {
 
           <div className="hidden md:flex space-x-1">
             <div className="text-white hover:text-gray-300 p-4 rounded-lg text-2xl flex-1">
-              <a href="spotify-link" className="flex items-center">
+              <a href="https://open.spotify.com/artist/2AKn3QitGXoKeodTlARfxe?si=QQezf9lMQjuHN-U7RVgQ_g" target="_blank" className="flex items-center">
                 <FaSpotify alt="Spotify" className="w-5 h-5" />
 
               </a>
             </div>
             <div className="text-white hover:text-gray-300 p-4 rounded-lg text-2xl flex-1">
-              <a href="apple-music-link" className="flex items-center">
+              <a href="https://music.apple.com/us/artist/barb/1647035903" target="_blank" className="flex items-center">
                 <FaMusic alt="Apple Music" className="w-5 h-5" />
 
               </a>
             </div>
             <div className="text-white hover:text-gray-300 p-4 rounded-lg text-2xl flex-1">
-              <a href="youtube-link" className="flex items-center">
+              <a href="https://www.youtube.com/channel/UC1rLZYufwNq4u4tG_533mIQ" target="_blank" className="flex items-center">
                 <FaYoutube alt="YouTube" className="w-5 h-5" />
 
               </a>
             </div>
             <div className="text-white hover:text-gray-300 p-4 rounded-lg text-2xl flex-1">
-              <a href="merch-link" className="flex items-center">
+              <a href="https://www.instagram.com/barb_barb_barb/" target="_blank" className="flex items-center">
                 <FaInstagram alt="Merch" className="w-5 h-5"/>
 
               </a>
             </div>
             <div className="text-white hover:text-gray-300 p-4 rounded-lg text-2xl flex-1">
-              <a href="merch-link" className="flex items-center">
+              <a href="https://www.tiktok.com/@barb_barb_barb" target="_blank" className="flex items-center">
               <FaTiktok alt="Merch" className="w-5 h-5"/>
 
               </a>
