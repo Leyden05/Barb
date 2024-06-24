@@ -8,9 +8,8 @@ const ContactForm = () => {
     return <p>Thanks for joining!</p>;
   }
   return (
-    <section className="mt-16 xl:mt-24">
+    <section className="">
     <div class="max-w-7xl flex flex-col items-center">
-      <h2 class="text-white text-4xl">Contact me</h2>
       <form onSubmit={handleSubmit} className="flex flex-col mt-12 w-80">
         <label htmlFor="email" className="text-white mb-2">
           Email Address
