@@ -22,9 +22,9 @@ const Nav = () => {
           </a>
 
           <div className="hidden md:flex space-x-6 md:gap-2 lg:gap-4 xl:gap-8 md:ml-32 xl:ml-48">
-            <a href="https://linktr.ee/barb_barb_barb" target="_blank" className="text-white hover:text-gray-300 flex gap-1">
+            <a href="https://linktr.ee/barb_barb_barb" target="_blank" className="text-white hover:text-gray-300 flex items-center gap-1">
               Links
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.5 3.5a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 1 0v4a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13v-9A1.5 1.5 0 0 1 3.5 2h4a.5.5 0 0 1 0 1h-4z"/><path fill-rule="evenodd" d="M11.5 2.5a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V4.707l-8.146 8.147a.5.5 0 0 1-.708-.708L10.293 4H6a.5.5 0 0 1 0-1h6z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.5 3.5a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 1 0v4a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13v-9A1.5 1.5 0 0 1 3.5 2h4a.5.5 0 0 1 0 1h-4z"/><path fill-rule="evenodd" d="M11.5 2.5a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V4.707l-8.146 8.147a.5.5 0 0 1-.708-.708L10.293 4H6a.5.5 0 0 1 0-1h6z"/></svg>
             </a>
             <a href="/about" className="text-white hover:text-gray-300">
               About
