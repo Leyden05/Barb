@@ -18,7 +18,7 @@ const ContactForm = () => {
           id="email"
           type="email"
           name="email"
-          className="border border-gray-300 rounded-md px-3 py-2 mb-4 focus:outline-none focus:border-blue-500"
+          className="border border-gray-300 rounded-md px-3 py-2 mb-4 focus:outline-none focus:border-blue-500 text-[#414a4c]"
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <label htmlFor="message" className="text-white mb-2">
@@ -27,7 +27,7 @@ const ContactForm = () => {
         <textarea
           id="message"
           name="message"
-          className="border border-gray-300 rounded-md px-3 py-2 mb-4 focus:outline-none focus:border-blue-500"
+          className="border border-gray-300 text-[#414a4c] rounded-md px-3 py-2 mb-4 focus:outline-none focus:border-blue-500"
         />
         <ValidationError
           prefix="Message"
