@@ -6,7 +6,7 @@ const Shows = () => {
       <div className="w-full h-screen">
         <Image
           className="w-full h-[1100px] object-cover absolute top-[-10.5rem] -z-[40]"
-          src={require("../assets/fullbandbarb.jpg")}
+          src={require("../assets/barbBG.JPG")}
           alt="my face"
         />
       </div>

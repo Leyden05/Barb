@@ -7,7 +7,7 @@ const BarbMain = () => {
       <div className="w-full h-screen">
         <Image
           className="w-full h-[900px] object-cover absolute top-[-6.5rem] -z-[40]"
-          src={require("../assets/tre.JPEG")}
+          src={require("../assets/barbBG.JPG")}
           alt="my face"
         />
       </div>
