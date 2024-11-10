@@ -21,7 +21,7 @@ const MobileMenu = () => {
                 </svg>
             </button>
             {isOpen && (
-                <div className="fixed gap-8 inset-0 bg-red-500 bg-opacity-75 z-50 flex flex-col justify-center items-center">
+                <div className="fixed gap-8 inset-0 bg-customBlue bg-opacity-75 z-50 flex flex-col justify-center items-center">
                     <button className="absolute top-0 right-0 m-4 text-white"
                         onClick={toggleMenu}>
                         X
