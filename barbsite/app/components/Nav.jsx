@@ -13,7 +13,7 @@ const Nav = () => {
     <nav className="relative py-8 z-20 max-w-screen-2xl">
       <div className="max-w-7xl mx-auto px-2 pt-4">
         <div className="flex justify-between items-center md:pr-2">
-          <a href="/" className="text-white text-xl font-bold">
+          <a href="/" className="text-white text-xl font-bold" data-aos="fade-up">
             <Image
               className="barb-logo"
               src={require("../assets/float.PNG")}
@@ -21,7 +21,7 @@ const Nav = () => {
             />
           </a>
 
-          <div className="hidden md:flex space-x-6 md:gap-2 lg:gap-4 xl:gap-8 md:ml-32 xl:ml-48">
+          <div className="hidden md:flex space-x-6 md:gap-2 lg:gap-4 xl:gap-8 md:ml-32 xl:ml-48" data-aos="fade-up" data-aos-delay="300">
             <a href="https://linktr.ee/barb_barb_barb" target="_blank" className="text-white hover:text-gray-300">
               Music
             </a>
@@ -42,7 +42,7 @@ const Nav = () => {
             </a>
           </div>
 
-          <div className="hidden md:flex space-x-1">
+          <div className="hidden md:flex space-x-1" data-aos="fade-up" data-aos-delay="600">
             <div className="text-white hover:text-gray-300 p-2 md:p-3 xl:p-4 rounded-lg text-2xl flex-1">
               <a href="https://open.spotify.com/artist/2AKn3QitGXoKeodTlARfxe?si=QQezf9lMQjuHN-U7RVgQ_g" target="_blank" className="flex items-center">
                 <FaSpotify alt="Spotify" className="w-5 h-5" />

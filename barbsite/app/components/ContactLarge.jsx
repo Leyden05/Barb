@@ -9,8 +9,8 @@ const ContactForm = () => {
   }
   return (
     <section className="">
-    <div class="max-w-7xl flex flex-col items-center">
-      <form onSubmit={handleSubmit} className="flex flex-col mt-12 w-80">
+    <div class="max-w-7xl mt-8 flex flex-col items-center bg-customBlue hover:bg-customBlueDark p-8 rounded-lg transition duration-300" data-aos="fade-up">
+      <form onSubmit={handleSubmit} className="flex flex-col w-80">
         <label htmlFor="email" className="text-white mb-2">
           Email Address
         </label>

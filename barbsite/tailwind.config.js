@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         customBlue: '#133849',
+        customBlueDark: '#0f2c3a',
         customLavender: '#B9A4BD',
         customSlate: '#425162',
       },
