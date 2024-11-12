@@ -6,7 +6,7 @@ const BarbMain = () => {
     <div className="-z-[40] w-0 h-0">
       <div className="w-full h-screen">
         <Image
-          className="w-full h-[900px] object-cover absolute top-[-6.5rem] -z-[40]"
+          className="w-full h-[1100px] object-cover absolute top-[-6.5rem] -z-[40]"
           src={require("../assets/barbBG.JPG")}
           alt="my face"
         />

@@ -27,11 +27,11 @@ const MobileMenu = () => {
                         X
                     </button>
                     {/* <a href="#" className="text-white text-2xl hover:text-gray-300">Home</a> */}
-                    <a href="https://linktr.ee/barb_barb_barb" target="_blank" className="text-white text-2xl hover:text-gray-300">Music</a>
-                    <a href="/live" className="text-white text-2xl hover:text-gray-300">Live</a>
-                    <a href="/shop" className="text-white text-2xl hover:text-gray-300">Store</a>
-                    <a href="/about" className="text-white text-2xl hover:text-gray-300">About</a>
-                    <a href="/contact" className="text-white text-2xl hover:text-gray-300">Contact</a>
+                    <a href="https://linktr.ee/barb_barb_barb" target="_blank" className="text-white text-2xl hover:text-gray-300" data-aos="fade-up">Music</a>
+                    <a href="/live" className="text-white text-2xl hover:text-gray-300" data-aos="fade-up">Live</a>
+                    <a href="/shop" className="text-white text-2xl hover:text-gray-300" data-aos="fade-up">Store</a>
+                    <a href="/about" className="text-white text-2xl hover:text-gray-300" data-aos="fade-up">About</a>
+                    <a href="/contact" className="text-white text-2xl hover:text-gray-300" data-aos="fade-up">Contact</a>
                 </div>
             )}
         </div>

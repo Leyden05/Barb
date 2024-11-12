@@ -34,9 +34,6 @@ const Nav = () => {
             <a href="/about" className="text-white hover:text-gray-300">
               About
             </a>
-            {/* <a href="/press" className="text-white hover:text-gray-300">
-              Press
-            </a> */}
             <a href="/contact" className="text-white hover:text-gray-300">
               Contact
             </a>
