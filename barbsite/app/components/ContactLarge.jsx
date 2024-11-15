@@ -9,7 +9,7 @@ const ContactForm = () => {
   }
   return (
     <section className="">
-    <div class="max-w-7xl mt-8 flex flex-col items-center bg-customBlue hover:bg-customBlueDark p-8 rounded-lg transition duration-300" data-aos="fade-up">
+    <div class="max-w-7xl mt-8 flex flex-col items-center p-8 rounded-lg transition duration-300" data-aos="fade-up">
       <form onSubmit={handleSubmit} className="flex flex-col w-80">
         <label htmlFor="email" className="text-white mb-2">
           Email Address
@@ -18,7 +18,7 @@ const ContactForm = () => {
           id="email"
           type="email"
           name="email"
-          className="border border-gray-300 rounded-md px-3 py-2 mb-4 focus:outline-none focus:border-blue-500 text-[#414a4c]"
+          className="border border-customLavender px-3 py-2 mb-4 focus:outline-none focus:border-blue-500 text-[#414a4c]"
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <label htmlFor="message" className="text-white mb-2">
@@ -27,7 +27,7 @@ const ContactForm = () => {
         <textarea
           id="message"
           name="message"
-          className="border border-gray-300 text-[#414a4c] rounded-md px-3 py-2 mb-4 focus:outline-none focus:border-blue-500"
+          className="border border-customLavender text-[#414a4c] px-3 py-2 mb-4 focus:outline-none focus:border-blue-500"
         />
         <ValidationError
           prefix="Message"
@@ -37,7 +37,7 @@ const ContactForm = () => {
         <button
           type="submit"
           disabled={state.submitting}
-          className="bg-blue-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none"
+          className="bg-customLavender text-white font-semibold py-2 px-4"
         >
           Submit
         </button>
