@@ -10,7 +10,7 @@ import { FaTiktok } from "react-icons/fa";
 
 const Nav = () => {
   return (
-    <nav className="relative py-8 z-20 max-w-screen-2xl">
+    <nav className="px-8 md:px-0 relative py-12 md:py-8 z-20 max-w-screen-2xl">
       <div className="max-w-7xl mx-auto px-2 pt-4">
         <div className="flex justify-between items-center md:pr-2">
           <a href="/" className="text-white text-xl font-bold" data-aos="fade-up">

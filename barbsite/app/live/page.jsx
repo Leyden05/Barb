@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="">
       <Nav />
-      <div class="flex w-full justify-center pt-16 px-4 sm:px-0" data-aos="fade-up">
+      <div class="flex w-full justify-center pt-16 px-8 sm:px-0 sm:pb-0 pb-4" data-aos="fade-up">
         <script
           charset="utf-8"
           src="https://widget.bandsintown.com/main.min.js"
@@ -17,7 +17,7 @@ export default function Home() {
           data-display-past-dates="false"
           data-auto-style="true"
           data-text-color="#ffffff"
-          data-link-color="#B9A4BD"
+          data-link-color="#133849"
           data-background-color="rgba(0,0,0,0)"
           data-display-limit="15"
           data-display-start-time="false"
