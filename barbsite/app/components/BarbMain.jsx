@@ -25,6 +25,7 @@ const BarbMain = () => {
         />
       </div>
 
+      {/* Static mobile background */}
       {/* <div className="md:hidden block w-full h-screen">
         <Image
           className="min-w-[200%] md:min-w-full h-[1100px] object-cover object-center left-[-35%] md:left-0 translate-x-[-30%] md:translate-x-0 absolute top-[-10.5rem] -z-[40]"
