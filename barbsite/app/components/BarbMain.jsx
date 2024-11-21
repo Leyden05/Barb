@@ -16,7 +16,7 @@ const BarbMain = () => {
       {/* Mobile Video */}
       <div className="md:hidden block w-full h-screen relative">
         <video
-          className="w-full h-[1100px] object-cover absolute top-[-6.5rem] -z-[40] pointer-events-none"
+          className="w-full h-[1100px] object-cover absolute top-[-9.5rem] -z-[40] pointer-events-none"
           src="/videos/barbmobilevid.mp4"
           autoPlay
           loop
