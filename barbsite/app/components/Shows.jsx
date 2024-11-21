@@ -6,7 +6,7 @@ const Shows = () => {
       <div className="w-full h-screen">
         <Image
           className="min-w-[100%] md:min-w-full h-[1100px] object-cover object-center left-[30%] md:left-0 translate-x-[-30%] md:translate-x-0 absolute top-[-10.5rem] -z-[40]"
-          src={require("../assets/barbph.JPG")}
+          src={require("../assets/barbph.jpg")}
           alt="my face"
         />
       </div>
