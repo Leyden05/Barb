@@ -16,7 +16,7 @@ const Nav = () => {
           <a href="/" className="text-white text-xl font-bold" data-aos="fade-up">
             <Image
               className="barb-logo"
-              src={require("../assets/float.PNG")}
+              src={require("../assets/yb.png")}
               alt="Barb logo"
             />
           </a>
