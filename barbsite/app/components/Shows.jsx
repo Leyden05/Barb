@@ -12,7 +12,7 @@ const Shows = () => {
       </div>
       <div className="w-full h-screen">
         <Image
-          className="min-w-[100%] md:min-w-full h-[1500px] md:h-[1100px] object-cover object-center left-[30%] md:left-0 translate-x-[-30%] md:translate-x-0 absolute top-0 -z-[40]"
+          className="min-w-[100%] md:min-w-full h-[1500px] md:h-[1100px] object-cover object-center left-[30%] md:left-0 translate-x-[-30%] md:translate-x-0 absolute top-[900px] -z-[40]"
           src={require("../assets/yolo.JPEG")}
           alt="my face"
         />
