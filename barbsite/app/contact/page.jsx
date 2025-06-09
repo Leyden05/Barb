@@ -19,7 +19,7 @@ export default function Home() {
           <div class="mt-8 flex flex-col items-center text-white font-light text-lg bg-customBlue p-8 rounded-lg transition duration-300" data-aos="fade-up">
             <h2 class="text-white font-medium text-lg">MGMT:</h2>
             <p class="text-gray-300">Grant Pittman @ <a href="https://pittmanagement.net/" target="_blank" class="underline">PittManagement</a></p>
-            <a href="mailto:GrantCPittman@gmail.com" class="text-gray-300 underline">GrantCPittman@gmail.com</a>
+            <a href="mailto:pittmgmt@gmail.com" class="text-gray-300 underline">pittmgmt@gmail.com</a>
             {/* <a href="tel:3615490469" class="text-gray-300">361-549-0469</a> */}
           </div>
         </div>
